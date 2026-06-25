@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bento-bg: #0A0B10;
+  --color-bento-text: #E0E0E6;
+  --color-bento-muted: #717482;
+  --color-bento-card: #0D0E14;
+  --color-bento-cell: #161822;
+  --color-bento-highlight: #1C1F2E;
+  --color-bento-border: #1F212B;
+  --color-bento-border-light: #2A2D3D;
+}
+
+/* Custom interactive styling and pointer hider */
+@media (pointer: fine) {
+  .cursor-none-global, .cursor-none-global * {
+    cursor: none !important;
+  }
+}
+
+/* Beautiful custom minimalist scrollbars for that ultra-clean look and solid click targets */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0B10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F212B;
+  border: 3px solid #0A0B10;
+  border-radius: 99px;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+  border: 3px solid #0A0B10;
+}

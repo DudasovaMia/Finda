@@ -1,0 +1,6 @@
+{
+  "name": "finda",
+  "description": "Inteligentný TV programový sprievodca s personalizovanými odporúčaniami na základe vašich obľúbených žánrov a filmov.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
